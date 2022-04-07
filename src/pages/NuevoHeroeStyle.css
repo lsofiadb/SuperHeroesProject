@@ -1,0 +1,22 @@
+#main-container {
+    place-items: center center;
+    
+  }
+  
+  #sign-in-form {
+    max-width: 330px;
+    justify-content: left;
+  }
+  
+  .logo {
+    width: 300px;
+    height: 150px;
+  }
+  
+  .form-control:focus {
+    z-index: 5;
+  }
+
+  .label{
+      justify-content: left;
+  }

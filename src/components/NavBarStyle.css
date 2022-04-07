@@ -1,0 +1,6 @@
+.linkNavBar{
+    color:white;
+}
+.linkNavBar:hover{
+    color:aquamarine;
+}

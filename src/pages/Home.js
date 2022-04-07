@@ -1,0 +1,11 @@
+import react from "react"
+
+const Home = () =>{
+    return(
+        <h1>
+            HOMEEEEE
+        </h1>
+    )
+}
+
+export default Home;
