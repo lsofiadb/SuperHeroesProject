@@ -44,12 +44,19 @@ function App() {
     const data = await response.json()
   };
 
+  
+
   return (
     <div className="App">
       <BrowserRouter>
         <NavBar></NavBar>
         <Routes>
-          <Route path='/home'  element={<Home ></Home>}></Route>
+          {
+            /*
+            <Route path='/home'  element={<Home ></Home>}></Route>
+            */
+        }
+          
           <Route path='/heroes' element={<Heroes heroes={heroes} ></Heroes>}></Route>
           <Route path='/agregarHeroe' element={<NuevoHeroe onSubmit={handleSubmit}></NuevoHeroe>}></Route>
         </Routes>

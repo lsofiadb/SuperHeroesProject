@@ -1,6 +1,14 @@
 .linkNavBar{
     color:white;
+    font-size: 25px;
+    
 }
 .linkNavBar:hover{
     color:aquamarine;
 }
+
+.titulo{
+    font-size: 40px;
+    color:blue
+}
+

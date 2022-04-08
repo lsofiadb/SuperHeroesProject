@@ -1,10 +1,8 @@
-import react from "react"
+import React from "react"
 
 const Home = () =>{
     return(
-        <h1>
-            HOMEEEEE
-        </h1>
+        <h1>ola</h1>
     )
 }
 

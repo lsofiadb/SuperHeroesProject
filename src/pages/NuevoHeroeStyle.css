@@ -1,22 +1,18 @@
 #main-container {
     place-items: center center;
-    
+    padding: 40px;
   }
   
   #sign-in-form {
-    max-width: 330px;
+    max-width: 500px;
     justify-content: left;
-  }
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    border-style: groove }
   
   .logo {
     width: 300px;
     height: 150px;
+    border-radius: 6px;
   }
   
-  .form-control:focus {
-    z-index: 5;
-  }
-
-  .label{
-      justify-content: left;
-  }

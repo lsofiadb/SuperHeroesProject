@@ -1,10 +1,11 @@
 import react from "react";
-import { Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import CardHeroe from "../components/CardHeroe";
 
 const Heroes = (props) => {
   return (
-    <div>
+    <Container>
+      <div>
         {/* xs--> cantidad de columnas en reponsive
             md--> cantidad de columnas mostradas
             g-5-->centrar las cards
@@ -18,6 +19,7 @@ const Heroes = (props) => {
         }
       </Row>
     </div>
+    </Container>
   );
 };
 
